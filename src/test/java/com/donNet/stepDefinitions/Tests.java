@@ -60,13 +60,13 @@ public class Tests {
 
     }
 
-    @Then("the user should be able to select the package")
-    public void theUserShouldBeAbleToSelectThePackage() throws InterruptedException {
+//    @Then("the user should be able to select the package")
+//    public void theUserShouldBeAbleToSelectThePackage() throws InterruptedException {
+//
+//        dp.packageSearchBox.click();
+//        Thread.sleep(20);
+//        dp.packageSearchBox.sendKeys("nUnit");
 
-        dp.packageSearchBox.click();
-        Thread.sleep(20);
-        dp.packageSearchBox.sendKeys("nUnit");
 
 
-    }
 }

@@ -8,7 +8,7 @@ Feature:Add Event Functionalities
   @wip
   Scenario Outline: Test 2
     When the name starts with the "<name>"
-    Then the user should be able to select the package
+   # Then the user should be able to select the package
 
     Examples:
 
