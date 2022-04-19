@@ -1,8 +1,8 @@
-package com.donNet.stepDefinitions;
+package com.dotNet.stepDefinitions;
 
 
-import com.donNet.utilities.ConfigurationReader;
-import com.donNet.utilities.Driver;
+import com.dotNet.utilities.ConfigurationReader;
+import com.dotNet.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;

@@ -1,4 +1,4 @@
-package com.donNet.utilities;
+package com.dotNet.utilities;
 
 
 import java.io.FileInputStream;

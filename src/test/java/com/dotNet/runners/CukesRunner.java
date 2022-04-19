@@ -1,4 +1,4 @@
-package com.donNet.runners;
+package com.dotNet.runners;
 
 
 import io.cucumber.junit.Cucumber;
@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 "html:target/default-html-reports",
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
-        glue = "com/donNet/stepDefinitions",
+        glue = "com/dotNet/stepDefinitions",
         dryRun = false,
         tags = "@wip"
 )

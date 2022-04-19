@@ -1,6 +1,6 @@
-package com.donNet.stepDefinitions;
+package com.dotNet.stepDefinitions;
 
-import com.donNet.pages.DashboardPage;
+import com.dotNet.pages.DashboardPage;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
