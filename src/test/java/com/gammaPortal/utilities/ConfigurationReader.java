@@ -1,4 +1,4 @@
-package com.dotNet.utilities;
+package com.gammaPortal.utilities;
 
 
 import java.io.FileInputStream;

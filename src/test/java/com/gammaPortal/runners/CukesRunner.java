@@ -1,4 +1,4 @@
-package com.dotNet.runners;
+package com.gammaPortal.runners;
 
 
 import io.cucumber.junit.Cucumber;
@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 "html:target/default-html-reports",
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
-        glue = "com/dotNet/stepDefinitions",
+        glue = "com/gammaPortal/stepDefinitions",
         dryRun = false,
         tags = "@wip"
 )

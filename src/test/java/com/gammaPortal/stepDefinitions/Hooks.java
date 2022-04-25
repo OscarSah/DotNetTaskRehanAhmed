@@ -1,8 +1,8 @@
-package com.dotNet.stepDefinitions;
+package com.gammaPortal.stepDefinitions;
 
 
-import com.dotNet.utilities.ConfigurationReader;
-import com.dotNet.utilities.Driver;
+import com.gammaPortal.utilities.ConfigurationReader;
+import com.gammaPortal.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -29,8 +29,8 @@ public class Hooks {
         actions = new Actions(driver);
         wait = new WebDriverWait(driver,3);
 
-        driver.get(ConfigurationReader.get("url"));
-        Driver.get().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+       // driver.get(ConfigurationReader.get("url"));
+      //  Driver.get().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
     @After

@@ -1,21 +1,17 @@
-Feature:Add Event Functionalities
+Feature:Parking Calculator
 
-
-  Scenario: Test 1
-    When the user click on the "Run" Button
-    Then the text "Hello World" should appear on output window
+  Background:
+    Given the user is on the home page
 
   @wip
-  Scenario Outline: Test 2
-    When the name starts with the "<name>"
-   # Then the user should be able to select the package
+  Scenario Outline: Test 1
+    Given the user selects the Valet parking lot
+    When the user select the current date as "<entryDate>"
+    And select time as "<entryTime>"
+#    And selects exit date as "<exitDate>" date and exit time as "<exitTime>" with 24 hour's Difference
+#    Then the calculated coast should be same as it appears in the table
 
     Examples:
-
-      | name     |
-      | Andy     |
-      | Fredrick |
-      | Peter    |
-      | Steave   |
-      | Zain     |
+      | entryDate | entryTime | exitDate   | exitTime |
+      | 20        | 09:00     | 04/25/2022 | 09:00    |
 

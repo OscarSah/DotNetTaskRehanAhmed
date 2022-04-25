@@ -1,4 +1,4 @@
-package com.dotNet.utilities;
+package com.gammaPortal.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
